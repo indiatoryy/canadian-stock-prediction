@@ -7,7 +7,7 @@ This project aims to develop a machine learning model to predict stock prices fo
 ## Current Progress
 
 ### Data Collection
-We have collected historical stock price data for the top Canadian companies. The data spans from January 1, 2010, to April 30, 2024. The list of companies includes:
+I have collected historical stock price data for the top Canadian companies. The data spans from January 1, 2010, to April 30, 2024. The list of companies includes:
 
 * Royal Bank of Canada (RY.TO)
 * Toronto-Dominion Bank (TD.TO)
@@ -31,19 +31,17 @@ We have collected historical stock price data for the top Canadian companies. Th
 * Brookfield Asset Management Inc. (BAM.TO)
 
 ### Exploratory Data Analysis (EDA)
-We performed an extensive EDA to understand the dataset, uncover patterns, detect anomalies, test hypotheses, and check assumptions. The key steps included:
+I performed an extensive EDA to understand the dataset, uncover patterns, detect anomalies, test hypotheses, and check assumptions. The key steps included:
 
 * Data Overview: Examined the structure and summary statistics of the data.
 * Data Cleaning: Handled missing values and ensured data integrity.
 * Descriptive Statistics: Calculated mean, median, standard deviation, and other summary statistics.
 * Visualization: line plots for closing prices, histograms for distribution, box plots for outlier detection, and heatmaps for correlation analysis.
 
-## Next Steps
-Sentiment Analysis:
-* Gather news articles related to the top Canadian companies.
-* Perform sentiment analysis to extract sentiment scores for each company.
-* Integrate sentiment scores with the stock price data to enhance the model.
+### Sentiment Analysis
+I performed sentiment analysis to better inform my model predictions. I started by gathering new headlines that related to the top Canadian companies. I gathered headlines based on company names, nicknames, and other keywords. I then used textblob to perform sentiment analysis and extract sentiment scores for each company. Finally, these sentiment scores were combined with the stock data to create a final dataset to train the model.
 
+## Next Steps
 Model Development:
 
 * Split the data into training and testing sets.
